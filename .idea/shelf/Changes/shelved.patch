@@ -1,0 +1,597 @@
+Index: cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3700ab6f836fb7aa4ab0.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3700ab6f836fb7aa4ab0.json b/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3700ab6f836fb7aa4ab0.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3700ab6f836fb7aa4ab0.json	(revision 907ed1df5954bf341353265248647178fdffe2e0)
++++ /dev/null	(revision 907ed1df5954bf341353265248647178fdffe2e0)
+@@ -1,60 +0,0 @@
+-{
+-	"configurations" : 
+-	[
+-		{
+-			"directories" : 
+-			[
+-				{
+-					"build" : ".",
+-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+-					"minimumCMakeVersion" : 
+-					{
+-						"string" : "3.23"
+-					},
+-					"projectIndex" : 0,
+-					"source" : ".",
+-					"targetIndexes" : 
+-					[
+-						0
+-					]
+-				}
+-			],
+-			"name" : "Debug",
+-			"projects" : 
+-			[
+-				{
+-					"directoryIndexes" : 
+-					[
+-						0
+-					],
+-					"name" : "Labs",
+-					"targetIndexes" : 
+-					[
+-						0
+-					]
+-				}
+-			],
+-			"targets" : 
+-			[
+-				{
+-					"directoryIndex" : 0,
+-					"id" : "Labs::@6890427a1f51a3e7e1df",
+-					"jsonFile" : "target-Labs-Debug-e7aa65bd580057ce3a4e.json",
+-					"name" : "Labs",
+-					"projectIndex" : 0
+-				}
+-			]
+-		}
+-	],
+-	"kind" : "codemodel",
+-	"paths" : 
+-	{
+-		"build" : "/Users/vladislavdrisuk/CLionProjects/Labs/cmake-build-debug",
+-		"source" : "/Users/vladislavdrisuk/CLionProjects/Labs"
+-	},
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 4
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/index-2022-11-12T15-06-32-0669.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-12T15-06-32-0669.json b/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-12T15-06-32-0669.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-12T15-06-32-0669.json	(revision 907ed1df5954bf341353265248647178fdffe2e0)
++++ /dev/null	(revision 907ed1df5954bf341353265248647178fdffe2e0)
+@@ -1,108 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake",
+-			"cpack" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cpack",
+-			"ctest" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/ctest",
+-			"root" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : false,
+-			"major" : 3,
+-			"minor" : 23,
+-			"patch" : 2,
+-			"string" : "3.23.2",
+-			"suffix" : ""
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-3700ab6f836fb7aa4ab0.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 4
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-25839d6cbcbc734f4fea.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-5b46518477d3620f32dd.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "toolchains-v1-eaf77ef16075f5145eb9.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"cache-v2" : 
+-		{
+-			"jsonFile" : "cache-v2-25839d6cbcbc734f4fea.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		"cmakeFiles-v1" : 
+-		{
+-			"jsonFile" : "cmakeFiles-v1-5b46518477d3620f32dd.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		"codemodel-v2" : 
+-		{
+-			"jsonFile" : "codemodel-v2-3700ab6f836fb7aa4ab0.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 4
+-			}
+-		},
+-		"toolchains-v1" : 
+-		{
+-			"jsonFile" : "toolchains-v1-eaf77ef16075f5145eb9.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/target-Labs-Debug-e7aa65bd580057ce3a4e.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/target-Labs-Debug-e7aa65bd580057ce3a4e.json b/cmake-build-debug/.cmake/api/v1/reply/target-Labs-Debug-e7aa65bd580057ce3a4e.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/target-Labs-Debug-e7aa65bd580057ce3a4e.json	(revision 907ed1df5954bf341353265248647178fdffe2e0)
++++ /dev/null	(revision 907ed1df5954bf341353265248647178fdffe2e0)
+@@ -1,110 +0,0 @@
+-{
+-	"artifacts" : 
+-	[
+-		{
+-			"path" : "Labs"
+-		}
+-	],
+-	"backtrace" : 1,
+-	"backtraceGraph" : 
+-	{
+-		"commands" : 
+-		[
+-			"add_executable"
+-		],
+-		"files" : 
+-		[
+-			"CMakeLists.txt"
+-		],
+-		"nodes" : 
+-		[
+-			{
+-				"file" : 0
+-			},
+-			{
+-				"command" : 0,
+-				"file" : 0,
+-				"line" : 6,
+-				"parent" : 0
+-			}
+-		]
+-	},
+-	"compileGroups" : 
+-	[
+-		{
+-			"compileCommandFragments" : 
+-			[
+-				{
+-					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+-				},
+-				{
+-					"fragment" : "-std=gnu99"
+-				}
+-			],
+-			"language" : "C",
+-			"languageStandard" : 
+-			{
+-				"backtraces" : 
+-				[
+-					1
+-				],
+-				"standard" : "99"
+-			},
+-			"sourceIndexes" : 
+-			[
+-				0,
+-				1
+-			]
+-		}
+-	],
+-	"id" : "Labs::@6890427a1f51a3e7e1df",
+-	"link" : 
+-	{
+-		"commandFragments" : 
+-		[
+-			{
+-				"fragment" : "-g",
+-				"role" : "flags"
+-			},
+-			{
+-				"fragment" : "",
+-				"role" : "flags"
+-			}
+-		],
+-		"language" : "C"
+-	},
+-	"name" : "Labs",
+-	"nameOnDisk" : "Labs",
+-	"paths" : 
+-	{
+-		"build" : ".",
+-		"source" : "."
+-	},
+-	"sourceGroups" : 
+-	[
+-		{
+-			"name" : "Source Files",
+-			"sourceIndexes" : 
+-			[
+-				0,
+-				1
+-			]
+-		}
+-	],
+-	"sources" : 
+-	[
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "main.c",
+-			"sourceGroupIndex" : 0
+-		},
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "lab1_1.c",
+-			"sourceGroupIndex" : 0
+-		}
+-	],
+-	"type" : "EXECUTABLE"
+-}
+Index: lab1_3.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lab1_3.c b/lab1_3.c
+new file mode 100644
+--- /dev/null	(date 1668362470442)
++++ b/lab1_3.c	(date 1668362470442)
+@@ -0,0 +1,7 @@
++#include "stdio.h"
++#include "math.h"
++#include "locale.h"
++/*
++int main() {
++    setlocale(LC_CTYPE, "ukr"); // Підключення української мови
++}*/
+\ No newline at end of file
+Index: cmake-build-debug/.ninja_log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># ninja log v5\n1\t110\t1668265549425266937\tCMakeFiles/Labs.dir/main.c.o\td8b75611219d314e\n0\t977\t1668266858611268930\tCMakeFiles/Labs.dir/lab1_1.c.o\t739164f08bf88d32\n978\t1187\t1668266858826717929\tLabs\t8c5f9838f08808b3\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/.ninja_log b/cmake-build-debug/.ninja_log
+--- a/cmake-build-debug/.ninja_log	(revision 907ed1df5954bf341353265248647178fdffe2e0)
++++ b/cmake-build-debug/.ninja_log	(date 1668363128938)
+@@ -1,4 +1,13 @@
+ # ninja log v5
++0	220	1668362407911291677	build.ninja	a4c6c9ccbbb08f4d
++1	125	1668280191592358367	CMakeFiles/Labs.dir/lab1_2.c.o	8bb2bcaf70ce1737
++0	141	1668282979794278777	CMakeFiles/Labs.dir/lab1_1.c.o	739164f08bf88d32
++141	286	1668282979937480387	Labs	e913802c643d53f6
+ 1	110	1668265549425266937	CMakeFiles/Labs.dir/main.c.o	d8b75611219d314e
+-0	977	1668266858611268930	CMakeFiles/Labs.dir/lab1_1.c.o	739164f08bf88d32
+-978	1187	1668266858826717929	Labs	8c5f9838f08808b3
++2	104	1668282838182144719	CMakeFiles/Labs.dir/lab2_2.c.o	10be1af76740c4c
++1	866	1668346127340868065	CMakeFiles/Labs.dir/lab1_3.c.o	4e5c4d31130263b9
++14	199	1668363128543991320	CMakeFiles/Labs.dir/lab1_3.c.o	4e5c4d31130263b9
++4	201	1668363128544064584	CMakeFiles/Labs.dir/lab1_1.c.o	739164f08bf88d32
++15	202	1668363128544653411	CMakeFiles/Labs.dir/lab1_2.c.o	8bb2bcaf70ce1737
++199	417	1668363128765473217	CMakeFiles/Labs.dir/lab1_4.c.o	2e111cd74eb3cd2f
++417	585	1668363128933323124	Labs	63a60736261ec9f9
+Index: lab1_2.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lab1_2.c b/lab1_2.c
+new file mode 100644
+--- /dev/null	(date 1668362470456)
++++ b/lab1_2.c	(date 1668362470456)
+@@ -0,0 +1,19 @@
++#include "stdio.h"
++#include "math.h"
++#include "locale.h"
++
++/*int main(){
++    setlocale(LC_CTYPE, "ukr"); // Підключення української мови
++    double a, b, x, F, E1, E2, E3; // Оголошення змінних
++    printf("Введіть a: "); // Введення змінних
++    scanf("%lf", &a);
++    printf("\nВведіть b:");
++    scanf("%lf", &b);
++    printf("\nВведіть x:");
++    scanf("%lf", &x);
++    E1 = sin(log(fabs(x - 1))); // Обчислення E1
++    E2 = log(fabs(sin(x) - 1)); // Обчислення E2
++    E3 = (a + b) * sqrt(fabs((a * b) + b)) / 2; // Обчислення E3
++    F = ((pow(E1, 2) + fabs(E2) + E3) / (sqrt(fabs(E1 * E3)))) - (1 / 3); // Обчислення F
++    printf("\n Число F= %lf", F); // Вивидення F
++}*/
+\ No newline at end of file
+Index: lab1_1.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include \"stdio.h\"\n#include \"math.h\"\n#include \"locale.h\"\n\n\nint main(){\n    setlocale(LC_CTYPE, \"ukr\");\n    double a, b, c, x, m;\n    printf(\"Ведіть сторону A:\");\n    scanf(\"%lf\", &a);\n    printf(\"\\nВведіть сторону B: \");\n    scanf(\"%lf\", &b);\n    printf(\"\\nВедіть сторону C: \");\n    scanf(\"%lf\", &c);\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lab1_1.c b/lab1_1.c
+--- a/lab1_1.c	(revision 907ed1df5954bf341353265248647178fdffe2e0)
++++ b/lab1_1.c	(date 1668362470468)
+@@ -2,15 +2,22 @@
+ #include "math.h"
+ #include "locale.h"
+ 
+-
+-int main(){
+-    setlocale(LC_CTYPE, "ukr");
+-    double a, b, c, x, m;
+-    printf("Ведіть сторону A:");
++/*
++int main()
++{
++    setlocale(LC_CTYPE, "ukr"); // Підключення української мови
++    double a, b, c, k, l, m; // Оголошення змінних
++    printf("Ведіть сторону A: "); // Введення даних
+     scanf("%lf", &a);
+     printf("\nВведіть сторону B: ");
+     scanf("%lf", &b);
+     printf("\nВедіть сторону C: ");
+     scanf("%lf", &c);
++    l = (a*a + c*c - b*b) / (2 * a*c); // Обчислення косинуса
++    k = acos(l)*180/3.1415; // Обчислення кута
++    m = sqrt(2 * pow(a, 2) + 2 * pow(b, 2) - pow(c, 2)) / 2; // Обчислення медіани
++    printf("Кут дорiвнює %3.2f\n", k); // Вивидення кута
++    printf("Медіана: %.2f\n", m); //Вивидення медіани
+ 
+-}
+\ No newline at end of file
++    return 0;
++}*/
+\ No newline at end of file
+Index: CMakeLists.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>cmake_minimum_required(VERSION 3.23)\nproject(Labs C)\n\nset(CMAKE_C_STANDARD 99)\n\nadd_executable(Labs main.c lab1_1.c)\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+--- a/CMakeLists.txt	(revision 907ed1df5954bf341353265248647178fdffe2e0)
++++ b/CMakeLists.txt	(date 1668362407639)
+@@ -3,4 +3,4 @@
+ 
+ set(CMAKE_C_STANDARD 99)
+ 
+-add_executable(Labs main.c lab1_1.c)
++add_executable(Labs main.c lab1_1.c lab1_3.c lab1_2.c lab1_4.c)
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1668266996579)
++++ b/.idea/vcs.xml	(date 1668266996579)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: cmake-build-debug/build.ninja
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>## This file contains all the build statements describing the\n# compilation DAG.\n\n# =============================================================================\n# Write statements declared in CMakeLists.txt:\n# \n# Which is the root file.\n# =============================================================================\n\n# =============================================================================\n# Project: Labs\n# Configurations: Debug\n# =============================================================================\n\n#############################################\n# Minimal version of Ninja required by this file\n\nninja_required_version = 1.5\n\n\n#############################################\n# Set configuration variable for custom commands.\n\nCONFIGURATION = Debug\n# =============================================================================\n# Include auxiliary files.\n\n\n#############################################\n# Include rules file.\n\ninclude CMakeFiles/rules.ninja\n\n# =============================================================================\n\n#############################################\n# Logical path to working directory; prefix for absolute paths.\n\ncmake_ninja_workdir = /Users/vladislavdrisuk/CLionProjects/Labs/cmake-build-debug/\n# =============================================================================\n# Object build statements for EXECUTABLE target Labs\n\n\n#############################################\n# Order-only phony target for Labs\n\nbuild cmake_object_order_depends_target_Labs: phony || CMakeFiles/Labs.dir\n\nbuild CMakeFiles/Labs.dir/main.c.o: C_COMPILER__Labs_Debug /Users/vladislavdrisuk/CLionProjects/Labs/main.c || cmake_object_order_depends_target_Labs\n  DEP_FILE = CMakeFiles/Labs.dir/main.c.o.d\n  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99\n  OBJECT_DIR = CMakeFiles/Labs.dir\n  OBJECT_FILE_DIR = CMakeFiles/Labs.dir\n\nbuild CMakeFiles/Labs.dir/lab1_1.c.o: C_COMPILER__Labs_Debug /Users/vladislavdrisuk/CLionProjects/Labs/lab1_1.c || cmake_object_order_depends_target_Labs\n  DEP_FILE = CMakeFiles/Labs.dir/lab1_1.c.o.d\n  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99\n  OBJECT_DIR = CMakeFiles/Labs.dir\n  OBJECT_FILE_DIR = CMakeFiles/Labs.dir\n\n\n# =============================================================================\n# Link build statements for EXECUTABLE target Labs\n\n\n#############################################\n# Link the executable Labs\n\nbuild Labs: C_EXECUTABLE_LINKER__Labs_Debug CMakeFiles/Labs.dir/main.c.o CMakeFiles/Labs.dir/lab1_1.c.o\n  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk\n  OBJECT_DIR = CMakeFiles/Labs.dir\n  POST_BUILD = :\n  PRE_LINK = :\n  TARGET_FILE = Labs\n  TARGET_PDB = Labs.dbg\n\n\n#############################################\n# Utility command for edit_cache\n\nbuild CMakeFiles/edit_cache.util: CUSTOM_COMMAND\n  COMMAND = cd /Users/vladislavdrisuk/CLionProjects/Labs/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\\ interactive\\ CMake\\ dialog\\ available.\n  DESC = No interactive CMake dialog available...\n  restat = 1\n\nbuild edit_cache: phony CMakeFiles/edit_cache.util\n\n\n#############################################\n# Utility command for rebuild_cache\n\nbuild CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND\n  COMMAND = cd /Users/vladislavdrisuk/CLionProjects/Labs/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/vladislavdrisuk/CLionProjects/Labs -B/Users/vladislavdrisuk/CLionProjects/Labs/cmake-build-debug\n  DESC = Running CMake to regenerate build system...\n  pool = console\n  restat = 1\n\nbuild rebuild_cache: phony CMakeFiles/rebuild_cache.util\n\n# =============================================================================\n# Target aliases.\n\n# =============================================================================\n# Folder targets.\n\n# =============================================================================\n\n#############################################\n# Folder: /Users/vladislavdrisuk/CLionProjects/Labs/cmake-build-debug\n\nbuild all: phony Labs\n\n# =============================================================================\n# Built-in targets\n\n\n#############################################\n# Re-run CMake if any of its inputs changed.\n\nbuild build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake\n  pool = console\n\n\n#############################################\n# A missing CMake input file is not an error.\n\nbuild ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony\n\n\n#############################################\n# Clean all the built files.\n\nbuild clean: CLEAN\n\n\n#############################################\n# Print all primary targets available.\n\nbuild help: HELP\n\n\n#############################################\n# Make the all target the default.\n\ndefault all\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/build.ninja b/cmake-build-debug/build.ninja
+--- a/cmake-build-debug/build.ninja	(revision 907ed1df5954bf341353265248647178fdffe2e0)
++++ b/cmake-build-debug/build.ninja	(date 1668362407911)
+@@ -58,6 +58,24 @@
+   OBJECT_DIR = CMakeFiles/Labs.dir
+   OBJECT_FILE_DIR = CMakeFiles/Labs.dir
+ 
++build CMakeFiles/Labs.dir/lab1_3.c.o: C_COMPILER__Labs_Debug /Users/vladislavdrisuk/CLionProjects/Labs/lab1_3.c || cmake_object_order_depends_target_Labs
++  DEP_FILE = CMakeFiles/Labs.dir/lab1_3.c.o.d
++  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
++  OBJECT_DIR = CMakeFiles/Labs.dir
++  OBJECT_FILE_DIR = CMakeFiles/Labs.dir
++
++build CMakeFiles/Labs.dir/lab1_2.c.o: C_COMPILER__Labs_Debug /Users/vladislavdrisuk/CLionProjects/Labs/lab1_2.c || cmake_object_order_depends_target_Labs
++  DEP_FILE = CMakeFiles/Labs.dir/lab1_2.c.o.d
++  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
++  OBJECT_DIR = CMakeFiles/Labs.dir
++  OBJECT_FILE_DIR = CMakeFiles/Labs.dir
++
++build CMakeFiles/Labs.dir/lab1_4.c.o: C_COMPILER__Labs_Debug /Users/vladislavdrisuk/CLionProjects/Labs/lab1_4.c || cmake_object_order_depends_target_Labs
++  DEP_FILE = CMakeFiles/Labs.dir/lab1_4.c.o.d
++  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
++  OBJECT_DIR = CMakeFiles/Labs.dir
++  OBJECT_FILE_DIR = CMakeFiles/Labs.dir
++
+ 
+ # =============================================================================
+ # Link build statements for EXECUTABLE target Labs
+@@ -66,7 +84,7 @@
+ #############################################
+ # Link the executable Labs
+ 
+-build Labs: C_EXECUTABLE_LINKER__Labs_Debug CMakeFiles/Labs.dir/main.c.o CMakeFiles/Labs.dir/lab1_1.c.o
++build Labs: C_EXECUTABLE_LINKER__Labs_Debug CMakeFiles/Labs.dir/main.c.o CMakeFiles/Labs.dir/lab1_1.c.o CMakeFiles/Labs.dir/lab1_3.c.o CMakeFiles/Labs.dir/lab1_2.c.o CMakeFiles/Labs.dir/lab1_4.c.o
+   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+   OBJECT_DIR = CMakeFiles/Labs.dir
+   POST_BUILD = :
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1668079611067)
++++ b/.idea/misc.xml	(date 1668079611067)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1668079615200)
++++ b/.idea/.gitignore	(date 1668079615200)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1668079611010)
++++ b/.idea/modules.xml	(date 1668079611010)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Labs.iml" filepath="$PROJECT_DIR$/.idea/Labs.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/Labs.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Labs.iml b/.idea/Labs.iml
+new file mode 100644
+--- /dev/null	(date 1668079630920)
++++ b/.idea/Labs.iml	(date 1668079630920)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module classpath="CMake" type="CPP_MODULE" version="4" />
+\ No newline at end of file
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Nov 12 17:27 EET\n----------------------------------------------------------\nEnd testing: Nov 12 17:27 EET\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	(revision 907ed1df5954bf341353265248647178fdffe2e0)
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1668363153262)
+@@ -1,3 +1,3 @@
+-Start testing: Nov 12 17:27 EET
++Start testing: Nov 13 20:12 EET
+ ----------------------------------------------------------
+-End testing: Nov 12 17:27 EET
++End testing: Nov 13 20:12 EET
+Index: lab1_4.c
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lab1_4.c b/lab1_4.c
+new file mode 100644
+--- /dev/null	(date 1668363268491)
++++ b/lab1_4.c	(date 1668363268491)
+@@ -0,0 +1,14 @@
++// Підключення бібліотек
++#include "stdio.h"
++#include "math.h"
++#include "locale.h"
++
++int main(){
++    setlocale(LC_CTYPE, "ukr"); // Підключення української мови
++    double r, s; // Оголошення змінних
++    const double PI = 3.141592653589793; // Оголошення числа pi
++    printf("Введіть радіус кола: "); // Введення даних
++    scanf("%lf", &r);
++    s = (PI * pow(r, 2)) / 2; // Обчислення півплощі
++    printf("\n Шукане число= %.3f\n", s); // Виведення півплощі
++}
+\ No newline at end of file
