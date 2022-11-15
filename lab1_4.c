@@ -2,7 +2,7 @@
 #include "stdio.h"
 #include "math.h"
 #include "locale.h"
-
+/*
 int main(){
     setlocale(LC_CTYPE, "ukr"); // Підключення української мови
     double r, s;
@@ -11,4 +11,4 @@ int main(){
     scanf("%lf", &r);
     s = (PI * pow(r, 2)) / 2;
     printf("\n Шукане число= %.3f\n", s);
-}
+}*/
