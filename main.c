@@ -1,12 +1,3 @@
-/*Завдання 3.5*/
-#include "stdio.h"
-#include "math.h"
-#include "locale.h"
-
-
-int main() {
-  setlocale(LC_CTYPE, "ukr"); // Підключення української мови
-
-
-  return 0;
-}
+/*Завдання 4.1*/
+#include <stdio.h>
+#include <math.h>
