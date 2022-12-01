@@ -22,7 +22,8 @@ int main() {
         sum++;
         printf("%f\n", a);
     } while (a<=0.001);
-    printf("sum= %f", sum);
+    printf("sum= %.0f", sum);
+    return 0;
 }
 
 

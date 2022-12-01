@@ -19,5 +19,6 @@ int main() {
     int n1=n*10;
     int n2=(int)(n*100)%10;
     printf("%i", n1+n2+lastNum);
+    return 0;
 }
 */
