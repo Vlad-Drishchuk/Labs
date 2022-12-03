@@ -9,7 +9,8 @@ int funcG(double g);
 
 int main(void){
   setlocale(LC_CTYPE, "ukr"); // Підключення української мови
-  double Fx, Gx, x, res;
+  double res;
+		unsigned x;
   printf("Введіть x: ");
   scanf("%d", &x);
   res=funcF(x);
@@ -20,8 +21,9 @@ int funcF(double f){
     return 3;
   } else if(f>6){
     return log(funcG(f)-2*f);
-  }
+  }else return 0;
 }
 int funcG(double g){
+	
   return funcF(g-1)-3*pow(g,2);
-}*/
+} */

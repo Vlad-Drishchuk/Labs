@@ -7,25 +7,25 @@
 double funcF(unsigned a, double b);
 int main(void)
 {
-  unsigned x;
-  double y, result;
+	  setlocale(LC_CTYPE, "ukr"); // Підключення української мови
+	unsigned x;
+	double y, result;
+	printf("Ввести x: ");
+	scanf("%d", &x);
+	printf("\nВвести y: ");
+	scanf("%lf", &y);
 
-  printf("Enter x: ");
-  scanf("%d", &x);
-  printf("\nEnter y: ");
-  scanf("%lf", &y);
-
-  result = funcF(x, y);
-  printf("\nf(x)= %.3lf", result);
-  return 0;
+	result = funcF(x, y);
+	printf("\nf(x)= %.3lf", result);
+	return 0;
 }
 
 double funcF(unsigned a, double b) //x=a y=b
 {
-  if (a == 3 || b == 0){
-    return 0;
+	if (a == 3 || b == 0){
+		return 2;
     }
-  else if (a > 3 && b == funcF(a - 1, b - 1)-5*pow(a, 2)){
-    return b-exp(a-b);
-  }
+	else if (a > 3 && b == funcF(a - 1, b - 1)-5*pow(a, 2)){
+    	return b-exp(a-b);
+  } else return 0;
 }*/

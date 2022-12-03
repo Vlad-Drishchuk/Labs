@@ -20,10 +20,10 @@ int main(void)
 
 int funcF(unsigned x)
 {
-  if (x == 6)
-    return 3;
-  else if (x > 6)
-  {
-    return (x - 1)/3);
-  }
+	if (x == 6){
+    	return 3;
+	}
+	else if (x > 6){
+	    return (x - 1)/3;
+  	} else return 0;
 }*/

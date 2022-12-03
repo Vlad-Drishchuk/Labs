@@ -1,4 +1,4 @@
-/*Завдання 6.5
+/*Завдання 6.6
 #define _CRT_SECURE_NO_WARNINGS
 #include "stdio.h"
 #include "math.h"
@@ -22,10 +22,8 @@ int funcF(unsigned n, double z){
 	if(z==7*n){
 		return 4;
 	} else if(z<7){
-		printf("1\n");
 		return funcF(fabs(z-1), n)+4*z;
 	} else if(z!=7*n){
-		printf("2\n");
 		return 3*log(z-1)-5*funcF(n,(z-5));
-	}
+	} else return 0;
 }*/
